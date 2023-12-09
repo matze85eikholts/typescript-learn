@@ -1,0 +1,4 @@
+For work with tuples in typescript you need to know:
+-spread operator;
+-rest parameters;
+--argument destruction

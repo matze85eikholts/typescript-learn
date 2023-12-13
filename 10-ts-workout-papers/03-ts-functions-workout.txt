@@ -1,0 +1,11 @@
+function warnUser(): void {
+  console.log("Warnin!!!");
+}
+
+function warnUser(): void {
+  console.log("Warning!!!");
+}
+
+function warnUser(): void {
+  console.log("Warning!!!");
+}

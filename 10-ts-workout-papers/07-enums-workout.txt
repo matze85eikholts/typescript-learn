@@ -13,3 +13,35 @@ readStatus(AppStatus.ACTIVE);
 enum Color{Red, Green, Blue};
 let c: Color =  Color.Green;
 ---------------------------------------
+enum Color {Red, Green, Blue};
+let c: Color = Color.Green;
+-------------------------------------
+enum Color {Red, Green, Blue};
+let c: Color = Color.Green;
+---------------------------------------
+enum Color {Red, Green, Blue};
+let c: Color = Color.Green;
+--------------------------------------------------
+
+enum AppStatus {
+   ACTIVE = 'ACT',
+   INACTIVE = 'INACT',
+   STANDBY = 'STBY'
+}
+function readStatus(application: AppStatus): void{
+  console.log(application);
+}
+
+readStatus(AppStatus.ACTIVE)
+
+-----------------------------------------------------
+enum AppStatus {
+   ACTIVE = 'ACT',
+   INACTIVE = 'INACT',
+   STANDBY = 'STBY'
+}
+function readStatus(application: AppStatus): void{
+   console.log(application);
+}
+
+readStatus(AppStatus.ACTIVE)

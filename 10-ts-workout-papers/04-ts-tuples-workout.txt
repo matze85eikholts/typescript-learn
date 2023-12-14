@@ -11,7 +11,18 @@ let user: [string, number] = ['Tom', 36];
 console.log(user[1]);
 user[1] = 37;
 console.log(user[1]);//37
-------------------------------
+-----------------------------------
+let user: [string, number] = ['Tom', 36];
+console.log(user[1]);
+user[1] = 37;
+console.log(user[1]);//37
+--------------------------------------------
+let user: [string, number] = ['Tom', 36];
+console.log(user[1]);
+user[1] = 37;
+console.log(user[1]);
+
+-------for of loop with tupes-----------------------
 let user:[string, number] = ["Tom", 36];
 for(const prop of user) {
    console.log(prop);
@@ -53,7 +64,15 @@ for(const prop of user) {
    console.log(prop);
 }
 ---------------------------------------
+let user: [string, number] = ["Tom", 36];
+for(const prop of user) {
+   console.log(prop);
+}
 
+
+
+
+---------------------------------------------------
 function printUser(user: [string, number]) {
    console.log(user[0]);
    console.log(user[1]);
@@ -62,8 +81,19 @@ let tom: [string, number] = ["Tom", 39];
 printUser(tom);
 
 ----------------------------------------------
-
-
+function printUser(user: [string, number]) {
+   console.log(user[0]);
+   console.log(user[1]);
+}
+let tom: [string, number] = ["Tom", 39];
+printUser(tom);
+----------------------------------------------
+function printUser(user: [string, number]) {
+   console.log(user[0]);
+   console.log(user[1]);
+}
+let tom: [string, number] = ["Tom", 39];
+printUser(tom);
 
 
 

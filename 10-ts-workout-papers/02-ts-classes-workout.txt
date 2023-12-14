@@ -38,4 +38,18 @@ class Greater {
 let greeter = new Greeter("Hello World");
 console.log(greeter.greet());
 }
---------------------------------------------------------
+------------------------------------------------------
+class Greater {
+
+  greating: string;
+  constructor(message: string) {
+      this.greeting = message;
+  }
+  great (): string {
+     return this.greeting;
+  }
+}
+
+let greeter = new Greeter ("Hello world!!!");
+console.log(greeter.greet());
+-------------------------------------------------

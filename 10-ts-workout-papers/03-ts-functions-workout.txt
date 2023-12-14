@@ -9,3 +9,32 @@ function warnUser(): void {
 function warnUser(): void {
   console.log("Warning!!!");
 }
+function warnUser(): void {
+  console.log("Warning!!!");
+}
+function warnUser(): void {
+  console.log("Warning!!!");
+}
+function warnUser(): void {
+  console.log("Warning!!!");
+}
+-------------------------------
+
+function throwError(message: string): never {
+    throw new Error(message);  
+}
+
+function infinite(): never {
+   while(true){
+
+   }
+}
+----------------------------
+function throwError(message:string): never {
+   throw new Error(message);
+}
+function infinite(): never {
+   while(true) {
+
+   }
+}
